@@ -1,2 +1,21 @@
-
-/* Your CSS Code here. */
+.holder {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .item {
+      width: 150px;
+      height: 150px;
+      font-size: 64px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      color: black;
+      font-family: serif;
+      margin-bottom: 15px;
+    }
+    .red { background: red; }
+    .blue { background: blue; }
+    .green { background: green; }
